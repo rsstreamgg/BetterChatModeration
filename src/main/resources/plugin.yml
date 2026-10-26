@@ -1,0 +1,18 @@
+name: BetterChatModeration
+description: $description
+version: '${version}'
+
+main: rsstreamgg.betterChatModeration.BetterChatModeration
+api-version: '26.2'
+load: POSTWORLD
+
+authors: [ RSstream ]
+website: https://www.youtube.com/@RSstreamGG
+
+permissions:
+  bcm.logs:
+    description: Allows the user to view logs for BCM (flag logs)
+    default: true
+  bcm.exclude:
+    description: Users with this permission won't be flagged by BCM
+    default: op
